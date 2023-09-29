@@ -1,6 +1,6 @@
 import {Route, Switch} from 'react-router-dom'
 import About from './pages/About'
-import Portfolio from './pages/Portfolio'
+import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import MainNavigation from './components/layout/MainNavigation'
 import Home from './pages/Home'
@@ -21,8 +21,8 @@ function App() {
         <About />
         </Route>
 
-      <Route path='/portfolio'>
-        <Portfolio />
+      <Route path='/projects'>
+        <Projects />
       </Route>
 
       <Route path='/contact'>
