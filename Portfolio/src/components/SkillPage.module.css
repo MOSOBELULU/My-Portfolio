@@ -1,0 +1,64 @@
+.SkillPage {
+    text-align: center;
+    margin-top: 20px;
+    ;
+  }
+  
+  .SkillHeading {
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    font-size: 50px;
+    font-weight: bolder;
+    color: #333; 
+    align-items: center;
+    letter-spacing:  20px;
+  }
+  
+  .SkillsCategories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .SkillsCategory {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #791091; 
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    border-radius: 63% 0% 98% 5% / 9% 21% 60% 0%;
+    box-shadow: 20px 2px 10px rgba(163, 10, 187, 0.3);
+    text-align: center;
+  }
+  
+  .Category {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .SkillsList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .SkillItem {
+    margin: 5px 0;
+    padding-left: 15px; /* Indent skill items */
+    position: relative;
+  }
+  
+  /* Add a bullet point before each skill item */
+  .SkillItem::before {
+    content: '\2022'; /* Unicode bullet point character */
+    position: absolute;
+    left: 0;
+    color: #333; /* Change the color to your preferred bullet point color */
+    font-weight: bold;
+  }
+
+  .btn{
+    align-items:flex-end;
+  }
+  

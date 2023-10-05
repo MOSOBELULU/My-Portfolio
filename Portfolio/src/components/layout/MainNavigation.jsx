@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom"
-// import classes from './MainNavigation.module.css'
+import classes from './MainNavigation.module.css'
 
 
 
 export default function MainNavigation() {
   return (
     <div>
-      <header>
-        <div>
+      <header className={classes.header}>
+        <div className={classes.name}>
             <h2>Mosobe Lulu</h2>
+            <h3>Junior Software Developer</h3>
         </div>
-        <nav>
+        <nav className={classes.nav}>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>

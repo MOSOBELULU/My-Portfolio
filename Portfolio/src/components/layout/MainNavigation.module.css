@@ -1,0 +1,38 @@
+/* MainNavigation.module.css */
+
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+
+}
+
+  
+  .name {
+    flex: 1;
+  font-size: xx-large;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+  }
+  
+  .nav li {
+    font-size: 18px; 
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff; 
+  }
+  
+ 
+  

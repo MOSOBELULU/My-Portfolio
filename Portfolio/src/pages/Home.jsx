@@ -3,8 +3,7 @@ import classes from './Home.module.css'
 export default function Home() {
   return (
     <div>
-      <h1>JUNIOR SOFTWARE DEVELOPER</h1>
-      <h2>opening line...</h2>
+      <h2>As a highly motivated and quick learner, I am enthusiastic about advancing my skills and contributing to dynamic software development teams. With a strong commitment to staying up-to-date with the latest technologies and best practices, I am dedicated to crafting efficient and high-quality software solutions. My passion for problem-solving and my experience in Html, Css, Javascript, ReactJs and NextJs make me a valuable asset to any software development project</h2>
         <a  className={classes.iconlink} href="https://github.com/MOSOBELULU"><button className={classes.btn}>
         <img className={classes.icon} src="public\images\github (1).png" alt=''/> </button></a>
         

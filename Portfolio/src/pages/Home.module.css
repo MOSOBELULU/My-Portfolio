@@ -1,6 +1,7 @@
 .btn{
     width: 20%;
     padding: 40px 30px;
+   border-radius: 81% 19% 90% 10% / 29% 76% 24% 71%;
 }
 
 .icon{
