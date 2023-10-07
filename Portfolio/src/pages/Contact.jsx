@@ -5,7 +5,7 @@ export default function Contact() {
     <div>
       <h1>Contact Me</h1>
       <a href="mailto:mosobelulu@gmail.com">mosobelulu@gmail.com</a>
-      <form className={classes.form} >
+      <form className={classes.form} action="https://formsubmit.co/mosobelulu@gmail.com" method="POST" >
 <div className={classes.control}>
     <label htmlFor='name'>Name</label>
     <input type='text' required id='name'/>

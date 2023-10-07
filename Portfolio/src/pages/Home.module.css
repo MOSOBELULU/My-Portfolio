@@ -1,13 +1,130 @@
-.btn{
+/* CSS for Home.module.css */
+.centeredContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .profileCard {
+    position: relative;
+    max-width: 450px; 
+    height: 450px;
+    background: purple;
+    border-radius: 10px 10px 50% 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding to the purple div */
+    text-align: center;
+  }
+  
+  .profileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between image and headings */
+  }
+  
+  .profilePicture {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .headerSection {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .profileDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    opacity: 0;
+    transform: translateY(-110px);
+    transition: all 0.7s ease-in-out;
+  }
+
+  .profileDescription h2 {
+    font-size: 16px; 
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons img {
+    width: 30px; /* Adjust the width to control the size of the icons */
+    height: 30px; /* Adjust the height to control the size of the icons */
+    color: rgba(20, 20, 20);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .profileCard:hover {
+    transform: scale(1.1);
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(255, 255, 255, 0.61);
+    color: black;
+  }
+  
+  .profileCard:hover .profilePicture {
+    transform: translate(-150px, -50px);
+    height: 120px;
+    width: 120px;
+    background: purple;
+  }
+  
+  .profileCard:hover .headerSection {
+    transform: translate(0px, -140px);
+  }
+  
+  .profileCard:hover .profileDescription {
+    opacity: 1;
+  }
+  
+  .icons img:hover {
+    color: rgb(173, 47, 47);
+    transform: scale(1.2);
+    animation: shake 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(3px);
+    }
+    50% {
+      transform: translateX(0px);
+    }
+    75% {
+      transform: translateX(-3px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .btn {
     width: 20%;
     padding: 40px 30px;
-   border-radius: 81% 19% 90% 10% / 29% 76% 24% 71%;
-}
-
-.icon{
-    width: 100px;
-}
-
-.iconlink{
-    text-decoration: none !important;
-}
+    border-radius: 81% 19% 90% 10% / 29% 76% 24% 71%;
+  }
+  
+  /* .icon{
+      width: 100px;
+  }
+  
+  .iconlink{
+      text-decoration: none !important;
+  }  */
+  

@@ -1,6 +1,8 @@
-import classes from './EducationPage.module.css'
+
 import { Link } from 'react-router-dom';
-import { educationData } from './DummyData';
+import { educationData } from './DummyData'; // Make sure to provide the correct path to your DummyData
+
+import classes from './EducationPage.module.css';
 
 function EducationPage() {
   return (
@@ -15,8 +17,8 @@ function EducationPage() {
           </li>
         ))}
       </ul>
-      <Link to="/about"> 
-      <button className={classes.btn}>Back</button>
+      <Link to="/about">
+        <button className={classes.btn}>Back</button>
       </Link>
     </div>
   );
