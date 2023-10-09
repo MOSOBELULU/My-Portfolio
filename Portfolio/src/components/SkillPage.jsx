@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import { skillsData } from './DummyData';
 
+
 import classes from './SkillPage.module.css';
 
 function SkillsPage() {

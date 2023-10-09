@@ -7,10 +7,6 @@ export default function MainNavigation() {
   return (
     <div>
       <header className={classes.header}>
-        <div className={classes.name}>
-            <h3>Mosobe Lulu</h3>
-            <h3>Junior Software Developer</h3>
-        </div>
         <nav className={classes.nav}>
             <ul>
                 <li>

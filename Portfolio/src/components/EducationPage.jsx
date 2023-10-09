@@ -1,7 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { educationData } from './DummyData'; // Make sure to provide the correct path to your DummyData
-
+import { educationData } from './DummyData';
 import classes from './EducationPage.module.css';
 
 function EducationPage() {

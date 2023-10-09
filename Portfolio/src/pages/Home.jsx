@@ -5,7 +5,7 @@ export default function Home() {
     <div className={classes.centeredContainer}>
       <div className={classes.profileCard}>
         <img
-          src="public\images\github (1).png"
+          src="/images/small.jpeg"
           className={classes.profilePicture}
           alt="ProfilePic"
         />

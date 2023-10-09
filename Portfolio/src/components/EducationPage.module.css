@@ -1,7 +1,6 @@
 .EducationPage {
     text-align: center;
     margin-top: 20px;
-    /* background-color: burlywood; */
   }
   
   .EducationHeading {
@@ -31,6 +30,6 @@
   }
   
   .Duration {
-    color: #777; /* Change the color to your preferred text color */
+    color: #777;
   }
   
