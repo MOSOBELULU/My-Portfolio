@@ -1,11 +1,12 @@
 import classes from "./Home.module.css";
 
+
 export default function Home() {
   return (
     <div className={classes.centeredContainer}>
       <div className={classes.profileCard}>
         <img
-          src="/images/small.jpeg"
+          src="/images/WhatsApp Image 2023-10-16 at 19.45.40_e43ddf9f.jpg"
           className={classes.profilePicture}
           alt="ProfilePic"
         />
@@ -57,6 +58,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+    
     </div>
   );
 }

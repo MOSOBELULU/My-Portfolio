@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px; /* Add padding to the purple div */
+    padding: 15px; 
     text-align: center;
   }
   
@@ -32,7 +32,14 @@
   .headerSection {
     transition: all 0.5s ease-in-out;
     font-size: 25px;
-    color: black;
+  }
+
+  .headerSection h1{
+    color: rgb(250, 246, 246)
+  }
+  .headerSection h2{
+    font-size: 25px;
+    color: rgb(250, 246, 246)
   }
   
   .profileDescription {
@@ -49,7 +56,7 @@
 
   .profileDescription h2 {
     font-size: 16px; 
-    color: black;
+    color: rgb(250, 246, 246);
   }
 
   .icons {
@@ -67,10 +74,14 @@
   .profileCard:hover {
     transform: scale(1.1);
     border-radius: 10px 10px 10px 10px;
-    background: rgba(255, 255, 255, 0.61);
+    background: rgba(255, 255, 255, 0.499);
     color: black;
   }
   
+  .headerSection:hover h1{
+    color: black;
+  }
+
   .profileCard:hover .profilePicture {
     transform: translate(-150px, -50px);
     height: 120px;
@@ -83,10 +94,12 @@
   }
   .profileCard:hover .headerSection h2{
     color: black;
+    margin-bottom: 5px;
   }
   
   .profileCard:hover .profileDescription {
     opacity: 1;
+    padding: auto;
   }
   .profileCard:hover .profileDescription h2 {
     color: black;

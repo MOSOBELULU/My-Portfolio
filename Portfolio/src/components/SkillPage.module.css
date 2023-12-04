@@ -45,7 +45,6 @@
     margin: 10px;
     padding: 10px;
     background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-    border-radius: 92% 0% 52% 5% / 17% 22% 45% 1%;
     box-shadow: 20px 2px 10px rgba(163, 10, 187, 0.3);
     overflow: hidden; 
     perspective: 1000px;
@@ -79,18 +78,13 @@
     margin: 5px 0;
   padding-left: 15px; 
   position: relative;
-  text-align: left;
+  text-align: center;
+  padding-top: 10px;
   font-size: 20px;
   }
   
-  /* Add a bullet point before each skill item */
-  .SkillItem::before {
-    content: '\2022'; /* Unicode bullet point character */
-    position: absolute;
-    left: 0;
-    color: #e11f97; 
-    font-weight: bold;
-  }
+ 
+ 
 
   .btn{
     align-items:flex-end;
