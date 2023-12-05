@@ -4,6 +4,13 @@
     ;
   }
 
+  .SkillsContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -17,11 +24,6 @@
 
   .SkillHeading, .SkillsCategory {
     animation: fade-in 1s ease-in-out;
-  }
-  
-  .SkillsCategory:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease;
   }
   
   .SkillHeading {
@@ -42,9 +44,9 @@
   
   .SkillsCategory {
     flex: 1;
+    display: flex;
     margin: 10px;
     padding: 10px;
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
     box-shadow: 20px 2px 10px rgba(163, 10, 187, 0.3);
     overflow: hidden; 
     perspective: 1000px;
@@ -55,6 +57,20 @@
     font-weight: bold;
     transform: translateY(100%); 
     transition: transform 0.3s ease; 
+  }
+
+  .CategoryContent {
+    display: flex; 
+    align-items: center; 
+  }
+
+  .CategoryLeft {
+    flex: 1; 
+    padding-right: 20px; 
+  }
+
+  .CategoryRight {
+    width: 40%; 
   }
 
   .SkillsCategory:hover .Category {
@@ -73,6 +89,10 @@
     text-align: center;
   }
   
+  .SkillsListContainer {
+    width: 100%;
+    padding-left: 5%;
+  }
 
   .SkillItem {
     margin: 5px 0;
@@ -106,5 +126,13 @@
   .SkillsCategory:hover > h2 {
     transform: rotateY(180deg); 
   }
+
+  .ImageContainer {
+    width: 40%; 
+  }
   
+  .img{
+    width: 100%;
+    height: auto;
+  }
   
