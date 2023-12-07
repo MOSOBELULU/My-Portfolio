@@ -15,7 +15,7 @@ export default function About() {
       } else {
         clearInterval(interval);
       }
-    }, 50); // Adjust typing speed by changing the interval time
+    }, 50); 
   }, []);
 
     

@@ -1,9 +1,25 @@
-.form {
+  .form {
     padding: 1rem;
+    width: 50%;
+    max-width: 600px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+  .heading{
+    font-size: 5rem;
+    color: #ffffff;
   }
   
   .control {
     margin-bottom: 0.5rem;
+    color: #ffffff;
   }
   
   .control label {
@@ -40,6 +56,6 @@
   
   .actions button:hover,
   .actions button:active {
-    background-color: #a50e48;
-    border-color: #a50e48;
+    background-color: #fa77a9;
+    border-color: #914d67;
   }

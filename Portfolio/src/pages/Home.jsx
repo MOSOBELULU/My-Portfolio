@@ -32,7 +32,7 @@ export default function Home() {
             >
               <img
                 // className={classes.icon}
-                src="public\images\github (1).png"
+                src="/images/github (1).png"
                 alt=""
               />
             </a>
@@ -43,7 +43,7 @@ export default function Home() {
             >
               <img
                 // className={classes.icon}
-                src="public\images\linkedin (1).png"
+                src="/images/linkedin (1).png"
                 alt=""
               />
             </a>

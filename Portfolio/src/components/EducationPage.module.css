@@ -1,35 +1,42 @@
 .EducationPage {
-    text-align: center;
-    margin-top: 20px;
-    background-image: url(https://i.pinimg.com/564x/00/8c/82/008c82d830ef3a0b40b672e57c2f66eb.jpg);
-  }
-  
-  .EducationHeading {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; 
-  }
-  
-  .EducationList {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
-  }
-  
-  .EducationItem {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    
-    
-  }
-  
-  .Qualification {
-    font-weight: bold;
-  }
-  
-  .Duration {
-    color: #777;
-  }
-  
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+}
+
+.EducationHeading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f9f6f6;
+}
+
+.EducationList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.EducationItem {
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.Qualification {
+  font-weight: bold;
+}
+
+.Duration {
+  color: rgba(255, 255, 255, 0.999);
+}
+
+.img{
+  border-radius: 50%;
+}

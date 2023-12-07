@@ -1,0 +1,32 @@
+
+
+.heading {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: palevioletred;
+  }
+  
+  img {
+    width: 200px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a:hover img {
+    transform: scale(1.1); 
+  }
+  
+  img:hover {
+    transform: rotate(360deg); 
+  }
+  

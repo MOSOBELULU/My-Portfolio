@@ -1,11 +1,14 @@
 .AboutData {
-    text-align: center;
-    margin-top: 20px;
-    font-size: xx-large;
-    opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  text-align: center;
+  margin-top: 20px;
+  font-size: xx-large;
+  opacity: 0;
   transform: translateY(-20px);
   animation: fade-in 1s ease forwards;
-  }
+}
 
   @keyframes fade-in {
     to {
@@ -16,13 +19,13 @@
   
   /* Add a hover animation to the links */
   h2 {
-    color: #333;
+    color: #ffffff;
     transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
   }
   
   h2:hover {
-    color: #555; /* Change text color on hover */
-    transform: scale(1.05); /* Scale up the text slightly on hover */
+    color: #ffffff;
+    transform: scale(1.05); 
   }
   
   /* Add a hover animation to the button */
@@ -37,19 +40,39 @@
   }
   
   button:hover {
-    background-color: #555; /* Change the background color on hover */
-    color: white; /* Change text color on hover */
-    transform: scale(1.05); /* Scale up the button slightly on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    background-color: #555; 
+    color: white; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  .image-container {
+    flex: 1;
+    margin-right: 20px; 
   }
   
-  /* .Link {
-    text-decoration: none;
-    color: #007bff; 
-    margin: 10px;
-    font-size: 18px;
-    font-weight: bold;
-  } */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .links-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .AboutData {
+      flex-direction: column;
+    }
+  }
   
   
 

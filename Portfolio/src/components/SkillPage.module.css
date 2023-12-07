@@ -1,138 +1,135 @@
 .SkillPage {
-    text-align: center;
-    margin-top: 20px;
-    ;
-  }
+  text-align: center;
+  margin-top: 20px;
+}
 
-  .SkillsContent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
+.SkillsContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: rgb(255, 47, 162)
+}
 
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-  .SkillHeading, .SkillsCategory {
-    animation: fade-in 1s ease-in-out;
-  }
-  
-  .SkillHeading {
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-    font-size: 50px;
-    font-weight: bolder;
-    color: #333; 
-    align-items: center;
-    letter-spacing:  20px;
-  }
-  
-  .SkillsCategories {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .SkillsCategory {
-    flex: 1;
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 20px 2px 10px rgba(163, 10, 187, 0.3);
-    overflow: hidden; 
-    perspective: 1000px;
-  }
+.SkillHeading,
+.SkillsCategory {
+  animation: fade-in 1s ease-in-out;
+}
 
-  .SkillsCategory .Category {
-    font-size: 25px;
-    font-weight: bold;
-    transform: translateY(100%); 
-    transition: transform 0.3s ease; 
-  }
+.SkillHeading {
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+  font-size: 50px;
+  font-weight: bolder;
+  color: #ffffff;
+  align-items: center;
+  letter-spacing: 20px;
+}
 
-  .CategoryContent {
-    display: flex; 
-    align-items: center; 
-  }
+.SkillsCategories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
-  .CategoryLeft {
-    flex: 1; 
-    padding-right: 20px; 
-  }
+.SkillsCategory {
+  flex: 1;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 20px 2px 10px rgba(245, 84, 229, 0.3);
+  overflow: hidden;
+  perspective: 1000px;
+}
 
-  .CategoryRight {
-    width: 40%; 
-  }
+.SkillsCategory .Category {
+  font-size: 25px;
+  font-weight: bold;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
 
-  .SkillsCategory:hover .Category {
-    transform: translateY(0); 
-  }
-  
-  .Category {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .SkillsList {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .SkillsListContainer {
-    width: 100%;
-    padding-left: 5%;
-  }
+.CategoryContent {
+  display: flex;
+  align-items: center;
+}
 
-  .SkillItem {
-    margin: 5px 0;
-  padding-left: 15px; 
+.CategoryLeft {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.CategoryRight {
+  width: 40%;
+}
+
+.SkillsCategory:hover .Category {
+  transform: translateY(0);
+}
+
+.Category {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.SkillsList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.SkillsListContainer {
+  width: 100%;
+  padding-left: 5%;
+}
+
+.SkillItem {
+  margin: 5px 0;
+  padding-left: 15px;
   position: relative;
   text-align: center;
   padding-top: 10px;
   font-size: 20px;
-  }
-  
- 
- 
+}
 
-  .btn{
-    align-items:flex-end;
-    background-color: #333;
+.btn {
+  align-items: flex-end;
+  background-color: #333;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease-in-out;
-  }
+}
 
-  .btn:hover {
-    background-color: #555; 
-    transform: scale(1.08); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .SkillsCategory:hover > h2 {
-    transform: rotateY(180deg); 
-  }
+.btn:hover {
+  background-color: #555;
+  transform: scale(1.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
-  .ImageContainer {
-    width: 40%; 
-  }
-  
-  .img{
-    width: 100%;
-    height: auto;
-  }
-  
+.SkillsCategory:hover > h2 {
+  transform: rotateY(180deg);
+}
+
+.ImageContainer {
+  width: 40%;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}

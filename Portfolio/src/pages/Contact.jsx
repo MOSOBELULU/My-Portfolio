@@ -2,8 +2,8 @@ import classes from './Contact.module.css'
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
+    <div className={classes.container}>
+      <h1 className={classes.heading}>Contact Me</h1>
       <a href="mailto:mosobelulu@gmail.com">mosobelulu@gmail.com</a>
       <form className={classes.form} action="https://formsubmit.co/mosobelulu@gmail.com" method="POST" >
 <div className={classes.control}>
