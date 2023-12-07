@@ -13,20 +13,6 @@ function App() {
   return (
     <div>
       <MainNavigation />
-      {/* <Home />
-      <Switch />
-      <Route path='/education'>
-          <EducationPage />
-        </Route>
-
-        <Route path='/skills'>
-          <SkillsPage />
-        </Route>
-        <Switch />
-      <About />
-      <Projects />
-      <Contact /> */}
-
       <Switch>
         <Route path='/' exact>
           <Home />
