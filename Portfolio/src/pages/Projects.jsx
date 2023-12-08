@@ -10,6 +10,10 @@ export default function Projects() {
       <a href="https://blog-nextjs-project-csnb.vercel.app/">
         <img src="/images/blog.png" alt=""  className={classes.img}/>
       </a>
+      <a href="https://github.com/MOSOBELULU/PodcastApp.git">
+        <img src="/images/podcastapp.png" alt=""  className={classes.img}/>
+      </a>
+      
     </div>
   );
 }
